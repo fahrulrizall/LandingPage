@@ -1,0 +1,335 @@
+/* ini untuk jumbotron  */
+.jumbotron-main {
+    background-image: url(img/slider1.jpg);
+    background-size: cover;
+    height: 770px;
+    text-align: center;
+    margin-top: -120px;
+    
+}
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 200px;
+}
+.jumbotron .lead {
+    color: white;
+}
+.jumbotron p {
+    color: white;
+    font-size: 25px;
+}
+
+.jumbotron hr {
+    width: 90px;
+    border-width: 8px;
+}
+
+.jumbotron .btn{
+    border: none;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+}
+
+/* ini untuk slider */
+
+.carousel {
+    margin-top: -60px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    margin-top: -120px;
+    height: 650px;
+}
+
+.carousel-item .display-4{
+    margin-top: -350px;
+}
+
+.carousel-item hr {
+    width: 90px;
+    border-width: 8px;
+}
+
+.carousel-item .btn{
+    border: none;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 20px;
+}
+
+
+/* ini untuk product */
+
+.product{
+    margin-top: -65px;
+    height: 570px;
+    background-color: black;
+    text-align: center;
+}
+
+.card{
+    background-color: black;
+}
+.card h5{
+    color: white;
+    text-align: center;
+}
+
+.product h3{
+    color :white;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.product p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.product .col-sm-6{
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product hr{
+    background-color: white;
+    height: 1px;
+    width: 100px;
+}
+
+.product a{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* ini untuk manajement */
+
+.manajemen{
+    margin-top: -40px;
+    text-align: center;
+}
+.manajemen h3{
+    text-align: center;
+}
+.manajemen .card{
+    background-color: transparent;
+}
+
+.manajemen .card {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.manajemen p{
+    color: black;
+}
+
+.manajemen .container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.manajemen p{
+    font-size: 12px;
+}
+
+
+/* testimoni */
+
+.testimoni {
+    margin-top: -32px;
+    background-color: black;
+    height: 400px;
+}
+
+.testimoni h3{
+    text-align: center;
+    color :white;
+}
+
+.testimoni hr{
+    text-align: center;
+    background-color: white;
+}
+
+.testimoni .carousel{
+    height: 300px;
+}
+
+.testimoni h6{
+    font-size: 10px;
+}
+
+.testimoni p{
+    font-size: 10px;
+}
+
+.testimoni img{
+    height: 10px;
+    width: 10px;
+}
+
+
+/* ini untuk client */
+
+.client {
+    margin-top: -30px;
+    height: 250px;
+}
+
+.client .card{
+    margin-top: -50px;
+    background-color: transparent;
+    height: 100px;
+    border: none;
+}
+
+.client h3{
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+/* .client a{
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.client p{
+    font-size: 13px;
+    color: black;
+}
+
+.client .carousel{
+    text-align: center ;
+    height: 200px;
+    width: 650px;
+}
+
+.client .carousel p{
+   font-size: 10px;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 50px;
+}
+
+
+.client .carousel-control-prev-icon,
+.client  .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.client  .carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color :black;
+}
+
+.client  .carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color : black;
+}
+
+.client .carousel-indicators{
+    color: black;
+}
+
+.client .card-body a{
+    margin-right: -100px;
+}
+
+.client .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color:black;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+
+.client img{
+    height: 100px;
+    width: 80px;
+}
+
+.client .carousel-item{
+    margin-top: -300px;
+}
+
+
+/* untuk career */
+
+.career{
+    height: 350px;
+    margin-top: -30px;
+    background-color: black;
+}
+
+.career .card{
+    margin-top: -30px;
+    border: none;
+}
+
+.career .card h3{
+    color: white;
+}
+
+.career .card p{
+    font-size: 15px;
+}
+
+.career a{
+    display: inline-block;
+}
+.career img{
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* untuk footer */
+
+
+.footer{
+    height: 45px;
+    margin-top: -35px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .copyright{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .contact {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer h6{
+    font-size: 13px;
+}
